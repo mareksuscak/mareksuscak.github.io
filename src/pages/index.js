@@ -1,14 +1,15 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
+// import Image from '../components/image'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Marek Suscak</h1>
+    <h1>Oh hi! 👋</h1>
+
     <p>
-      Pragmatic software craftsman on his lifelong learning journey. By day I engineer software systems and build products, by night I engage in the local tech community as a speaker and a mentor. I enjoy reading books on computer science, productivity, building and marketing products and behavioral psychology.
+      I'm <strong>Marek</strong>, a pragmatic software craftsman on his lifelong learning journey. By day I engineer software systems and build products, by night I engage in the local tech community as a speaker and a mentor. I enjoy reading books on computer science, productivity, building and marketing products and behavioral psychology.
     </p>
 
     <p>
@@ -23,9 +24,9 @@ const IndexPage = () => (
       According to Meyers-Briggs personality test, I am a well-balanced ENFJ-T type which is said to be very rare forming only around 2% of the world population. My biggest strengths are empathy, charisma and strong self-reflection ability.
     </p>
 
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
+    <p>
+      <em>You can follow me on <a href="https://twitter.com/mareksuscak">Twitter</a>, <a href="https://github.com/mareksuscak">GitHub</a>, <a href="https://gitlab.com/mareksuscak">GitLab</a> or <a href="https://www.linkedin.com/in/mareksuscak/">LinkedIn</a></em>
+    </p>
   </Layout>
 )
 

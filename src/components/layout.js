@@ -26,12 +26,13 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="en" />
+
         </Helmet>
 
         <div
           style={{
             margin: '0 auto',
-            maxWidth: 960,
+            maxWidth: 780,
             padding: '1.45rem 1.0875rem '
           }}
         >
